@@ -19,6 +19,10 @@
         .auto-style4 {
             text-align: left;
         }
+        .auto-style5 {
+            width: 450px;
+            text-align: right;
+        }
     </style>
 </head>
 <body>
@@ -43,9 +47,11 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">
+                    <td class="auto-style5">
                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="SAVE" Width="213px" />
+                    </td>
+                    <td class="auto-style4">
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Update" Width="214px" />
                     </td>
                 </tr>
                 <tr>
