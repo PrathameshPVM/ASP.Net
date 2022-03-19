@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>ab1.jpg</ImageUrl>
+		<TargetUrl>http://www.google.com </TargetUrl>
+		<AlternateText>index </AlternateText>
+		<Keyword> a1</Keyword>
+		<Impressions> 600</Impressions>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>ab2.jpg</ImageUrl>
+		<TargetUrl>http://www.google.com </TargetUrl>
+		<AlternateText>index </AlternateText>
+		<Keyword> a2</Keyword>
+		<Impressions> 300</Impressions>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>ab3.jpg</ImageUrl>
+		<TargetUrl>http://www.google.com </TargetUrl>
+		<AlternateText>index </AlternateText>
+		<Keyword> a3</Keyword>
+		<Impressions> 100</Impressions>
+	</Ad>
+</Advertisements>
+
