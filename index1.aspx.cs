@@ -48,7 +48,8 @@ namespace dropdown_test
                 SqlCommand cmd = new SqlCommand("ins_data", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 //cmd.Parameters.AddWithValue("@CustomerID", 0);    
-                cmd.Parameters.AddWithValue("@d_name",dept.SelectedItem.Text);
+                cmd.Parameters.AddWithValue("@d_id", dept.SelectedItem.Value);//updated 
+                cmd.Parameters.AddWithValue("@t_date", textb.Text);
                 con.Open();
                 cmd.ExecuteNonQuery();
                 //cmd.ExecuteScalar().ToString();
@@ -63,7 +64,8 @@ namespace dropdown_test
             {
                 con.Close();
             }
-            //Label1.Text = dept.SelectedItem.Text;
+            //Label1.Text = dept.SelectedItem.Value;
+            //Label1.Text = textb.Text;
         }
     }
 }

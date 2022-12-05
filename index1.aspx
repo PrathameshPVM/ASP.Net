@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:DropDownList ID="dept" runat="server"></asp:DropDownList>
-<%--            <asp:DropDownList ID="dept" runat="server"></asp:DropDownList>--%>
+            <asp:TextBox ID="textb" runat="server" TextMode="Date"></asp:TextBox>
             <asp:Button ID="save" runat="server" OnClick="save_Click" Text="Save" />
             <asp:Label ID="Label1" runat="server"></asp:Label>
 
